@@ -145,7 +145,7 @@ int main(void) {
 	};
 
 	while (!gameOver) {
-		winnerChar = getWinnerChar(tiles); // gets the tile that completes 3 if any
+		winnerChar = getWinnerChar(tiles); // gets the tile that fills all the positions of a row if any
 		if (winnerChar != ' ') { // a player has won the game
 			playerTurn = -1;
 		}
