@@ -134,7 +134,7 @@ void displayHelpText(int player_turn) {
 
 int main(void) {
 	int playerTurn = 1;
-	boolo gameOver = false;
+	bool gameOver = false;
 	int n;
 	int sti = 0; // Selected Tile Index
 	char winnerChar = ' ';
